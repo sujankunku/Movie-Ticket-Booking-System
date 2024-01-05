@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmationPage"
+    android:orientation="vertical">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.movieticketbookingsystem.Confirm1Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="275dp" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.example.movieticketbookingsystem.Confirm2Frgament"
+        android:layout_width="match_parent"
+        android:layout_height="272dp" />
+
+    <Button
+        android:id="@+id/b1c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+
+    <Button
+        android:id="@+id/b2c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home Page" />
+</LinearLayout>

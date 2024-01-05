@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Movie Ticket Booking System</string>
+    <string name="movie_title">Select a Movie</string>
+    <string name="select_movie_prompt">Select a Movie</string>
+    <string name="select_show_time_button_text">Select Show Time</string>
+    <string name="book_ticket_button_text">Book Ticket</string>
+    <string name="select_show_time_prompt">Select a Show Time</string>
+    <string name="select_button_text">Select</string>
+    <string name="username_error_message">username is invalid</string>
+    <string name="password_error_message">password is invalid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookingPage">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Confirm Booking"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/B1b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Tickets" />
+
+    <TextView
+        android:id="@+id/tv1b"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/b2b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home Page" />
+</LinearLayout>
